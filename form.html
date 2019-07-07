@@ -1,0 +1,88 @@
+<!DOCTYPE>
+<html>
+<head>
+ <style>
+      form {
+        margin: 0 auto;
+        width: 1000px;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+
+      }
+      label {
+        display: inline-block;
+        width: 140px;
+        text-align: right;
+      }
+      input, textarea {
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box; 
+        border: 1px solid #999;}
+     
+      textarea {
+        vertical-align: top;
+        height: 5em;}
+      
+      button {padding-left: 90px;}
+      button {margin-left: .5em;}
+    </style>
+	<b><title> ISRO RECUIREMENT FORM </title></b>
+</head>
+<body bgcolor="LIGHTCYAN">
+	<h1><p align='center'><font color='BLACK' face="time new roman"><u>ISRO RECUIREMENT FORM</u></font></p>
+	<font color="BLACK">
+	<ul type="disc">
+<form>
+	<label>First name:</label><input type="text" name="Firstname" align="left">
+		<br>
+		<br>
+		<label>Middle name:</label><input type="text" name="Middlename" align="left">
+		<br>
+		<br>
+		<label>Last name:</label><input type="text" name="Lastname" align="left">
+		<br>
+		<br>
+		<label>DOB:</label><input type="text" name="datetime" align="left">
+		<br>
+		<br>
+		<label>Email address:</label><input type="text" name="emailaddress" align="left">
+		<br>
+		<br>
+		<label>Contact no:</label><input type="text" name="Contact" align="left">
+		<br>
+		<br>
+		<label>Address:</label>
+		<textarea rows="5" cols="50" name="address"></textarea><br>
+		<br>	
+		<label>Select Gender</label><br>
+		<input type="radio" name="Gender" value="MALE"><label>MALE</label>
+		<br>
+		<input type="radio" name="Gender" value="FEMALE">
+		<label>FEMALE</label>
+		<br>
+		<input type="radio" name="Gender" value="OTHER">
+		<label>OTHER</label>
+		<br>
+		<br>
+		<label>Qualification:</label><align="left">
+		<br>
+		<select name="Qualification">
+		<option> M.C.A </option>
+		<option> Msc </option>
+		<option> B.E </option>
+		<option> B.TECH </option>
+		<option> Bsc </option>
+		</select>
+		<br>
+		<br>
+        <label> Resume </label>
+		<input type = "file" name = "fileupload" accept = "image">
+        <br>
+        <br>	
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+		
+		
+	</form>
